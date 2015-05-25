@@ -8,7 +8,7 @@ La práctica consiste en la creación de una aplicación HTML5 que permita jugar
 
 Detalles del enunciado en el programa de la asignatura.
 
-*Nombre: sorellan
-*Peculiaridades: cada partida consiste en averiguar un único lugar del json
-*Funcionalidades opcionales: ninguna
-*URL demostración: <http://youtu.be/XY-yxKxUNcY>
+* Nombre: sorellan
+* Peculiaridades: cada partida consiste en averiguar un único lugar del json
+* Funcionalidades opcionales: ninguna
+* URL demostración: <http://youtu.be/XY-yxKxUNcY>
