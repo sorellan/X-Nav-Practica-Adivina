@@ -92,7 +92,7 @@ function getPhotos(item) {
 }
 //////////////Geojson////////////////////////////////////////////////////////////////////
 function loadGeojson() {
-	$.getJSON("/juegos/"+juego+".json", function(data) {
+	$.getJSON("../juegos/"+juego+".json", function(data) {
 		geojsonFeature = data;
 		//Estraigo un nombre al azar del geojson
 		var items = [];
