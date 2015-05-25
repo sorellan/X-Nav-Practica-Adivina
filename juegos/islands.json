@@ -1,0 +1,104 @@
+{ "type": "FeatureCollection",
+    "features": [
+      	{ 
+          "type": "Feature",
+      	  "properties": { 
+            "Name": "Formentera"
+          },
+          "geometry": { 
+            "type": "Point", 
+        	  "coordinates": [1.45, 38.69]
+          }
+        },
+      	{ 
+          "type": "Feature",
+      	  "properties": { 
+            "Name": "Madeira"
+          },
+          "geometry": { 
+            "type": "Point", 
+         	  "coordinates": [-16.96, 32.76]
+          }
+        },
+        { 
+          "type": "Feature",
+      	  "properties": { 
+            "Name": "Isla Saona"
+          },
+          "geometry": { 
+            "type": "Point",
+            "coordinates": [-68.68, 18.15]
+          }
+        },
+        { 
+          "type": "Feature",
+      	  "properties": { 
+            "Name": "Bora Bora"
+          },
+          "geometry": { 
+            "type": "Point",
+            "coordinates": [-151.74, -16.50]
+          }
+        },
+        { 
+          "type": "Feature",
+      	  "properties": { 
+            "Name": "Mikonos"
+          },
+          "geometry": { 
+            "type": "Point",
+            "coordinates": [25.33, 37.45]
+          }
+        },
+        { 
+          "type": "Feature",
+      	  "properties": { 
+            "Name": "Hvar"
+          },
+          "geometry": { 
+            "type": "Point", 
+            "coordinates": [16.65, 43.15]
+          }
+        },
+        { 
+          "type": "Feature",
+          "properties": { 
+            "Name": "Capri"
+          },
+          "geometry": { 
+            "type": "Point", 
+            "coordinates": [14.22, 40.55]
+          }
+        },
+        { 
+          "type": "Feature",
+          "properties": { 
+            "Name": "Maui"
+          },
+          "geometry": { 
+            "type": "Point", 
+            "coordinates": [-156.33, 20.80]
+          }
+        },
+        { 
+          "type": "Feature",
+          "properties": { 
+            "Name": "Ellesmere"
+          },
+          "geometry": { 
+            "type": "Point", 
+            "coordinates": [-72.66, 80.75]
+          }
+        },
+        { 
+          "type": "Feature",
+          "properties": { 
+            "Name": "Soqotra"
+          },
+          "geometry": { 
+            "type": "Point", 
+            "coordinates": [53.82, 12.46]
+          }
+        }
+    ]
+}

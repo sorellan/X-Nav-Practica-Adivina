@@ -1,0 +1,193 @@
+/*!
+ * Start Bootstrap - Scrolling Nav HTML Template (http://startbootstrap.com)
+ * Code licensed under the Apache License v2.0.
+ * For details, see http://www.apache.org/licenses/LICENSE-2.0.
+ */
+
+html, body {
+    width: 100%;
+    height: 100%;
+    /*overflow-y: hidden;*/ 
+}
+
+@media(min-width:767px) {
+    .navbar {
+        padding: 20px 0;
+        -webkit-transition: background .5s ease-in-out,padding .5s ease-in-out;
+        -moz-transition: background .5s ease-in-out,padding .5s ease-in-out;
+        transition: background .5s ease-in-out,padding .5s ease-in-out;
+    }
+
+    .top-nav-collapse {
+        padding: 0;
+    }
+}
+
+/* Demo Sections - You can use these as guides or delete them - the scroller will work with any sort of height, fixed, undefined, or percentage based.
+The padding is very important to make sure the scrollspy picks up the right area when scrolled to. Adjust the margin and padding of sections and children 
+of those sections to manage the look and feel of the site. */
+
+.intro-section {
+    height: 700px;
+    width: 100%;
+    text-align: center;
+    background: url(../img/background02.jpg) no-repeat center center scroll;
+}
+
+.intro-section h1 {
+    color: white;
+    text-shadow:2px 2px 1px #616161;
+}
+
+.intro-section .game-type, 
+.intro-section .game-level{
+    padding: 20px;
+    -webkit-box-shadow: 6px 7px 9px -1px rgba(0,0,0,0.75);
+    -moz-box-shadow: 6px 7px 9px -1px rgba(0,0,0,0.75);
+    box-shadow: 6px 7px 9px -1px rgba(0,0,0,0.75);
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 10px 10px 10px 10px;
+    -moz-border-radius: 10px 10px 10px 10px;
+    -webkit-border-radius: 10px 10px 10px 10px;
+    border: 0px solid #000000;
+    text-align: left;
+}
+
+.intro-section #btn-init {
+    visibility: hidden;
+}
+
+.intro-section #description {
+    color: white;
+    font-size: 18px;
+    text-shadow:2px 2px 1px #616161;
+}
+
+.game-section {
+    height: 100%;
+    width: 100%;
+}
+
+.container {
+    width: 100%;
+    height: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+#first-row {
+    width: 100%;
+    height: 75%;
+    margin: 0;
+}
+
+#second-row {
+    width: 100%;
+    height: 25%;
+    margin: 0;
+}
+
+.game-col {
+    height: 100%;
+    padding: 0;
+    text-align: center;
+    background-color: black;
+    border: 1px solid #deb556;
+}
+
+#photo h1 {
+    margin-top: 25%;
+}
+
+#photo img {
+    min-height: 50%;
+    max-height: 100%;
+    min-width: 50%;
+    max-width: 100%;
+}
+
+#control {
+    height: 100%;
+    padding: 0;
+    background-color: #157e31;
+}
+
+#control #data {
+    height: 100%;
+    text-align: center;
+    text-shadow:2px 2px 1px #616161;
+    margin: 0;
+    padding: 0;
+    border: 1px solid #deb556;
+}
+
+#control #data1 {
+    height: 75%;
+    font-size: 15px;
+}
+
+#control #data2 {
+    height: 25%;
+}
+
+#control #data div #btn-leave {
+    position: absolute;
+    z-index: 1;
+    width: 40%;
+    margin-left: -20%;
+}
+
+#control #data div #btn-new {
+    position: absolute;
+    z-index: 2;
+    width: 40%;
+    margin-left: -20%;
+}
+
+
+#control #history {
+    border: 1px solid #deb556;
+    background-color: #d6492d;
+    height: 100%;
+    padding: 0;
+    overflow: scroll;
+    margin: 0;
+}
+
+#control #history a {
+    color: black;
+    text-shadow:2px 2px 1px #616161;
+}
+
+.btn{
+    margin: 4px;
+    box-shadow: 1px 1px 5px #888888;
+}
+
+.btn-xs{
+    font-weight: 300;
+}
+   
+.btn-hot {
+color: #fff;
+background-color: #db5566;
+border-bottom:2px solid #af4451;
+}
+
+.btn-hot:hover, .btn-sky.active:focus, .btn-hot:focus, .open>.dropdown-toggle.btn-hot {
+color: #fff;
+background-color: #df6a78;
+border-bottom:2px solid #b25560;
+outline: none;}
+
+
+.btn-hot:active, .btn-hot.active {
+color: #fff;
+background-color: #c04b59;
+border-top:2px solid #9a3c47;
+margin-top: 2px;
+}
+
+#btn-new {
+    visibility: hidden;
+}

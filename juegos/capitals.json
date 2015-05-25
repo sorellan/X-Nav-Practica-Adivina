@@ -1,0 +1,104 @@
+{ "type": "FeatureCollection",
+    "features": [
+      	{ 
+          "type": "Feature",
+      	  "properties": { 
+            "Name": "Madrid ciudad"
+          },
+          "geometry": { 
+            "type": "Point", 
+        	  "coordinates": [-3.70379, 40.41677]
+          }
+        },
+      	{ 
+          "type": "Feature",
+      	  "properties": { 
+            "Name": "Tokyo city"
+          },
+          "geometry": { 
+            "type": "Point", 
+         	  "coordinates": [139.70, 35.69]
+          }
+        },
+        { 
+          "type": "Feature",
+      	  "properties": { 
+            "Name": "Paris city"
+          },
+          "geometry": { 
+            "type": "Point",
+            "coordinates": [2.35, 48.86]
+          }
+        },
+        { 
+          "type": "Feature",
+      	  "properties": { 
+            "Name": "Copenhagen city"
+          },
+          "geometry": { 
+            "type": "Point",
+            "coordinates": [12.57, 55.68]
+          }
+        },
+        { 
+          "type": "Feature",
+      	  "properties": { 
+            "Name": "Washington city"
+          },
+          "geometry": { 
+            "type": "Point",
+            "coordinates": [-77.04, 38.91]
+          }
+        },
+        { 
+          "type": "Feature",
+      	  "properties": { 
+            "Name": "Habana city"
+          },
+          "geometry": { 
+            "type": "Point", 
+            "coordinates": [-82.27, 23.16]
+          }
+        },
+        { 
+          "type": "Feature",
+          "properties": { 
+            "Name": "Tunez city"
+          },
+          "geometry": { 
+            "type": "Point", 
+            "coordinates": [9.54, 33.89]
+          }
+        },
+        { 
+          "type": "Feature",
+          "properties": { 
+            "Name": "Apia Samoa"
+          },
+          "geometry": { 
+            "type": "Point", 
+            "coordinates": [-171.76, -13.84]
+          }
+        },
+        { 
+          "type": "Feature",
+          "properties": { 
+            "Name": "Panama city"
+          },
+          "geometry": { 
+            "type": "Point", 
+            "coordinates": [-80.78, 8.54]
+          }
+        },
+        { 
+          "type": "Feature",
+          "properties": { 
+            "Name": "Dublin street"
+          },
+          "geometry": { 
+            "type": "Point", 
+            "coordinates": [-6.26, 53.35]
+          }
+        }
+    ]
+}

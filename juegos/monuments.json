@@ -1,0 +1,104 @@
+{ "type": "FeatureCollection",
+    "features": [
+      	{ 
+          "type": "Feature",
+      	  "properties": { 
+            "Name": "Torre Eiffel"
+          },
+          "geometry": { 
+            "type": "Point", 
+        	  "coordinates": [2.35, 48.86]
+          }
+        },
+      	{ 
+          "type": "Feature",
+      	  "properties": { 
+            "Name": "Big Ben"
+          },
+          "geometry": { 
+            "type": "Point", 
+         	  "coordinates": [-0.13, 51.51]
+          }
+        },
+        { 
+          "type": "Feature",
+      	  "properties": { 
+            "Name": "Sagrada Familia"
+          },
+          "geometry": { 
+            "type": "Point", 
+         	  "coordinates": [2.17, 41.38]
+          }
+        },
+        { 
+          "type": "Feature",
+      	  "properties": { 
+            "Name": "Colisseo"
+          },
+          "geometry": { 
+            "type": "Point", 
+         	  "coordinates": [12.49, 41.90]
+          }
+        },
+        { 
+          "type": "Feature",
+      	  "properties": { 
+            "Name": "Acrópolis de Atenas"
+          },
+          "geometry": { 
+            "type": "Point", 
+         	  "coordinates": [23.73, 37.98]
+          }
+        },
+        { 
+          "type": "Feature",
+      	  "properties": { 
+            "Name": "Estatua de la Libertad"
+          },
+          "geometry": { 
+            "type": "Point", 
+         	  "coordinates": [-74.00, 40.71]
+          }
+        },
+        { 
+          "type": "Feature",
+          "properties": { 
+            "Name": "Muralla China"
+          },
+          "geometry": { 
+            "type": "Point", 
+            "coordinates": [104.19, 35.86]
+          }
+        },
+        { 
+          "type": "Feature",
+          "properties": { 
+            "Name": "Taj Mahal"
+          },
+          "geometry": { 
+            "type": "Point", 
+            "coordinates": [78.00, 27.18]
+          }
+        },
+        { 
+          "type": "Feature",
+          "properties": { 
+            "Name": "Pirámides de Giza"
+          },
+          "geometry": { 
+            "type": "Point", 
+            "coordinates": [31.21, 30.01]
+          }
+        },
+        { 
+          "type": "Feature",
+          "properties": { 
+            "Name": "Torres Petronas"
+          },
+          "geometry": { 
+            "type": "Point", 
+            "coordinates": [101.71, 3.16]
+          }
+        }
+    ]
+}

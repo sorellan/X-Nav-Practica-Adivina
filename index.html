@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Adivinanzas</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/funkyradio.css" rel="stylesheet">
+
+    <!-- Leaflet CSS -->
+    <link rel="stylesheet" href="http://cdn.leafletjs.com/leaflet-0.7.3/leaflet.css" />
+
+    <!-- Custom CSS -->
+    <link href="css/adivina.css" rel="stylesheet">
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+</head>
+
+<!-- The #page-top ID is part of the scrolling feature -->
+
+<body id="page-top" data-spy="scroll" >
+
+    <!-- Intro Section -->
+    <section id="intro" class="intro-section">
+        <div class="container">
+            <div class="col-lg-12">
+                <h1>Adivina donde está</h1>
+                <div class="funkyradio game-type col-md-4 col-xs-12">
+                    Elige un juego
+                    <div class="funkyradio-info">
+                        <input type="radio" name="game-type" id="capitals" />
+                        <label for="capitals">Capitales</label>
+                    </div>
+                    <div class="funkyradio-info">
+                        <input type="radio" name="game-type" id="monuments" />
+                        <label for="monuments">Monumentos</label>
+                    </div>
+                    <div class="funkyradio-info">
+                        <input type="radio" name="game-type" id="islands" />
+                        <label for="islands">Islas</label>
+                    </div>
+                </div>
+                <div class="funkyradio game-level col-md-4 col-md-offset-4 col-xs-12">
+                    Elige un nivel
+                    <div class="funkyradio-default">
+                        <input type="radio" name="game-level" id="easy" />
+                        <label for="easy">Facil</label>
+                    </div>
+                    <div class="funkyradio-success">
+                        <input type="radio" name="game-level" id="medium" />
+                        <label for="medium">Medio</label>
+                    </div>
+                    <div class="funkyradio-warning">
+                        <input type="radio" name="game-level" id="hard" />
+                        <label for="hard">Dificil</label>
+                    </div>
+                    <div class="funkyradio-danger">
+                        <input type="radio" name="game-level" id="insane" />
+                        <label for="insane">Demente</label>
+                    </div>
+                </div>
+                <div id="description">
+                    Bienvenido a <b>Adivina donde está</b>. Escoge un tipo de juego y un nivel de dificultad y ponte a jugar. Se mostrarán un total de 10 fotografías y tendrás que adivinar de qué lugar se trata pinchando sobre el mapa. El nivel de dificultad influirá en el tiempo que permanecen las fotos en pantalla. El que consiga una puntuación menor será el ganador.
+                </div>
+                <div id="btn-init">
+                    <a class="btn btn-default page-scroll" href="#game">A jugar!</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Game Section -->
+    <section id="game" class="game-section">
+        <div class="container">
+            <div id="first-row" class="row">
+                <div id="map" class="col-md-6 col-xs-6 game-col">
+                </div>
+                <div id="photo" class="col-md-6 col-xs-6 game-col">
+                </div>
+            </div>
+            <div id="second-row" class="row">
+                <div id="control" class="col-md-12">
+                    <!--<input type="button" id="btn-leave" class="btn btn-default" value="Click Me!">-->
+                    <div class="col-md-6" id="data">
+                        <div id="data1" class="col-md-12 col-xs-6">
+                        <ul class="list-unstyled">Resultado:
+                            <li id="target"></li>
+                            <li id="distance"></li>
+                            <li id="score"></li>
+                        </ul>
+                        </div>
+                        <div id="data2" class="col-md-12 col-xs-6">
+                            <button type="button" class="btn btn-hot text-capitalize btn-xs" id="btn-leave">Abandonar</button>
+                            <a class="btn btn-success text-capitalize btn-xs page-scroll" id="btn-new" href="#intro">Nuevo</a>
+                        </div>
+                    </div>
+                    <div class="col-md-6" id="history"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- jQuery -->
+    <script src="js/jquery-1.11.3.min.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="js/bootstrap.min.js"></script>
+
+    <!-- Scrolling Nav JavaScript -->
+    <script src="js/jquery.easing.min.js"></script>
+    <script src="js/scrolling-nav.js"></script>
+
+    <!-- Leaflet -->
+    <script id="leaflet" src="http://cdn.leafletjs.com/leaflet-0.7.3/leaflet.js"></script>
+
+    <!-- Custon js -->
+    <script id="logic" src="js/adivina.js"></script>
+
+</body>
+
+</html>
